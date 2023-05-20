@@ -9,8 +9,8 @@ body {
 }
 
 .avatar {
-    width: 150px;
-    height: 170px;
+    width: 12rem;
+    height: 14rem;
     border-bottom: 4px solid #bb4430;
     border-right: 4px solid #7ebdc2;
     border-radius: 20px 
@@ -28,6 +28,7 @@ body {
     border-bottom: 8px solid #7ebdc2;
     border-right: 6px solid #bb4430;
     align-items: center;
+    font-size: larger;
 
 }
 .card2 {
