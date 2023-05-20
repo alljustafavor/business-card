@@ -17,9 +17,9 @@ body {
 }
 
 .card {
-    width: 400px;
+    width: 50%;
+    height: 30%;
     margin: 0 auto;
-    padding: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -27,53 +27,34 @@ body {
     color: #231f20;
     border-bottom: 8px solid #7ebdc2;
     border-right: 6px solid #bb4430;
-        
-    /*
-    Challenge:
-    Find a color palette you like on Coolors.co
-    and use it in your business card.
-     */
+    align-items: center;
+
 }
+.card2 {
+  width: 50%;
+  height: 30%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #efe6dd;
+  color: #231f20;
+  border-top: 8px solid #bb4430;
+  border-left: 6px solid #7ebdc2;
+  align-items: center;
+}
+
 
 .border-blue {
     border: 1px dotted blue;
 }
 
-@keyframes textShadows {
-  0%   {color: 231f20;}
-  25%  {text-shadow: 0 0 3px #7ebdc2;}
-  50%  {text-shadow: 0 0 3px #bb4430;}
-  100% {text-shadow: 0 0 3px #231f20;}
-}
-
-.name:hover .first-word {
+.card:hover .first-word, .card2:hover .first-word {
     color: #bb4430;
     transition: all 200ms ease-in-out;
 }
-.name:hover .last-word {
+.card:hover .last-word, .card2:hover .last-word {
     color: #7ebdc2;
     transition: all 1s ease;
 }
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows 
-heading {
-  text-shadow: 0 0 3px #FF0000;
-}       🤯
-- hover effects
-  a:hover {
-  background-color: yellow;
-}
-- animations     🤯🤯🤯
-*/
 
-/*
-Final challenge:
-Download the code to your local computer and place it
-in a folder called "business-card"
-*/
